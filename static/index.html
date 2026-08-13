@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pal Breeding Calculator</title>
+    
+    <!-- Production Tailwind CSS Link -->
+    <link rel="stylesheet" href="/static/style.css?v=2.0">
+</head>
+<body class="bg-slate-950 text-slate-100 min-h-screen p-6 font-sans">
+
+    <div class="max-w-4xl mx-auto space-y-8">
+        
+        <!-- Header -->
+        <header class="flex justify-between items-center border-b border-slate-800 pb-4">
+            <h1 class="text-2xl font-bold text-amber-400">Pal Breeding Calculator</h1>
+            <div id="auth-status" class="text-sm text-slate-400 flex items-center gap-3">Guest Mode</div>
+        </header>
+
+        <!-- Auth Modal -->
+        <div id="auth-modal" class="hidden fixed inset-0 bg-black/60 flex items-center justify-center z-[100] p-4">
+            <div class="bg-slate-900 border border-slate-800 rounded-2xl shadow-2xl w-full max-w-sm p-6 relative">
+                <button type="button" id="auth-modal-close" class="absolute top-3 right-3 text-slate-500 hover:text-slate-200 text-lg leading-none">&times;</button>
+
+                <div class="flex gap-2 mb-5">
+                    <button type="button" id="auth-tab-login" class="flex-1 py-2 text-sm font-semibold rounded-lg transition">Login</button>
+                    <button type="button" id="auth-tab-register" class="flex-1 py-2 text-sm font-semibold rounded-lg transition">Sign Up</button>
+                </div>
+
+                <form id="login-form" class="space-y-3">
+                    <input type="text" id="login-username" placeholder="Username" required autocomplete="username" class="w-full bg-slate-950 border border-slate-700 rounded-lg p-2.5 text-sm text-white focus:outline-none focus:border-amber-400">
+                    <input type="password" id="login-password" placeholder="Password" required autocomplete="current-password" class="w-full bg-slate-950 border border-slate-700 rounded-lg p-2.5 text-sm text-white focus:outline-none focus:border-amber-400">
+                    <p id="login-error" class="text-xs text-rose-400 hidden"></p>
+                    <button type="submit" class="w-full bg-amber-500 hover:bg-amber-600 text-slate-900 font-bold p-2.5 rounded-lg text-sm transition">Login</button>
+                </form>
+
+                <form id="register-form" class="space-y-3 hidden">
+                    <input type="text" id="register-username" placeholder="Username (min 3 characters)" required minlength="3" autocomplete="username" class="w-full bg-slate-950 border border-slate-700 rounded-lg p-2.5 text-sm text-white focus:outline-none focus:border-amber-400">
+                    <input type="password" id="register-password" placeholder="Password (min 6 characters)" required minlength="6" autocomplete="new-password" class="w-full bg-slate-950 border border-slate-700 rounded-lg p-2.5 text-sm text-white focus:outline-none focus:border-amber-400">
+                    <p id="register-error" class="text-xs text-rose-400 hidden"></p>
+                    <button type="submit" class="w-full bg-emerald-600 hover:bg-emerald-500 text-white font-bold p-2.5 rounded-lg text-sm transition">Create Account</button>
+                </form>
+            </div>
+        </div>
+
+        <!-- Section 1: Add Pal Form -->
+        <section class="bg-slate-900 border border-slate-800 p-6 rounded-2xl shadow-xl">
+            <h2 class="text-lg font-semibold text-slate-200 mb-4">Add Pal to Inventory</h2>
+            
+            <form id="add-pal-form" class="grid grid-cols-1 md:grid-cols-4 gap-4">
+                
+                <!-- SEARCHABLE DROPDOWN: PAL SPECIES -->
+                <div class="relative" id="add-pal-species-wrapper">
+                    <input type="hidden" id="pal-species">
+                    <button type="button" id="pal-species-trigger" class="w-full bg-slate-950 border border-slate-700 rounded-lg p-2.5 text-sm text-left text-slate-400 flex justify-between items-center focus:outline-none focus:border-amber-400">
+                        <span id="pal-species-text">Select Pal...</span>
+                        <span class="text-xs text-slate-500">▼</span>
+                    </button>
+                    <div id="pal-species-menu" class="hidden absolute left-0 right-0 top-full mt-1 bg-slate-800 border border-slate-700 rounded-lg shadow-2xl z-50 p-2">
+                        <input type="text" id="pal-species-search" placeholder="Search Pal..." autocomplete="off" class="w-full bg-slate-950 border border-slate-700 rounded-md p-2 text-xs text-white mb-2 focus:outline-none focus:border-amber-400">
+                        <div id="pal-species-options" class="max-h-48 overflow-y-auto space-y-1"></div>
+                    </div>
+                </div>
+
+                <!-- Gender Select -->
+                <select id="pal-gender" class="bg-slate-950 border border-slate-700 rounded-lg p-2.5 text-sm text-white focus:outline-none focus:border-amber-400">
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                </select>
+                
+                <!-- SEARCHABLE MULTI-SELECT: PASSIVES -->
+                <div class="relative" id="pal-passives-wrapper">
+                    <input type="hidden" id="pal-passives">
+                    <button type="button" id="pal-passives-trigger" class="w-full bg-slate-950 border border-slate-700 rounded-lg p-2 text-sm text-left flex flex-wrap gap-1 items-center min-h-[42px] focus:outline-none focus:border-amber-400">
+                        <span id="pal-passives-chips" class="flex flex-wrap gap-1 items-center"><span class="text-slate-400">Select Passives...</span></span>
+                    </button>
+                    <div id="pal-passives-menu" class="hidden absolute left-0 right-0 top-full mt-1 bg-slate-800 border border-slate-700 rounded-lg shadow-2xl z-50 p-2">
+                        <input type="text" id="pal-passives-search" placeholder="Search Passive..." autocomplete="off" class="w-full bg-slate-950 border border-slate-700 rounded-md p-2 text-xs text-white mb-2 focus:outline-none focus:border-amber-400">
+                        <div id="pal-passives-options" class="max-h-48 overflow-y-auto space-y-1"></div>
+                    </div>
+                </div>
+
+                <button type="submit" class="bg-emerald-600 hover:bg-emerald-500 text-white font-bold p-2.5 rounded-lg text-sm transition">Add Pal</button>
+            </form>
+        </section>
+
+        <!-- Pal Inventory Display -->
+        <section class="bg-slate-900 border border-slate-800 p-6 rounded-2xl shadow-xl">
+            <h2 class="text-lg font-semibold text-slate-200 mb-4">Your Pal Box</h2>
+            <div id="inventory-list" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                <!-- Dynamically rendered by app.js -->
+            </div>
+        </section>
+
+        <!-- Section 2: Breedable Pals Discovery -->
+        <section class="bg-slate-900 border border-slate-800 p-6 rounded-2xl shadow-xl">
+            <div class="flex items-center justify-between mb-4">
+                <h2 class="text-lg font-semibold text-slate-200">Possible Breedable Pals</h2>
+                <span class="text-xs text-slate-500">Unlocked dynamically from your Pal Box</span>
+            </div>
+            <div id="breedable-pals-list">
+                <!-- Dynamically rendered by app.js updateDiscoveries() -->
+            </div>
+        </section>
+
+        <!-- Section 3: Breeding Finder Form -->
+        <section class="bg-slate-900 border border-slate-800 p-6 rounded-2xl shadow-xl">
+            <h2 class="text-lg font-semibold text-slate-200 mb-4">Calculate Target Breeding Pairs</h2>
+            
+            <form id="breed-finder-form" class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                
+                <!-- SEARCHABLE DROPDOWN: TARGET SPECIES -->
+                <div class="relative" id="target-species-wrapper">
+                    <input type="hidden" id="target-species">
+                    <button type="button" id="target-species-trigger" class="w-full bg-slate-950 border border-slate-700 rounded-lg p-2.5 text-sm text-left text-slate-400 flex justify-between items-center focus:outline-none focus:border-amber-400">
+                        <span id="target-species-text">Select Target Child...</span>
+                        <span class="text-xs text-slate-500">▼</span>
+                    </button>
+                    <div id="target-species-menu" class="hidden absolute left-0 right-0 top-full mt-1 bg-slate-800 border border-slate-700 rounded-lg shadow-2xl z-50 p-2">
+                        <input type="text" id="target-species-search" placeholder="Search Target..." autocomplete="off" class="w-full bg-slate-950 border border-slate-700 rounded-md p-2 text-xs text-white mb-2 focus:outline-none focus:border-amber-400">
+                        <div id="target-species-options" class="max-h-48 overflow-y-auto space-y-1"></div>
+                    </div>
+                </div>
+
+                <!-- SEARCHABLE MULTI-SELECT: DESIRED PASSIVES -->
+                <div class="relative" id="target-passives-wrapper">
+                    <input type="hidden" id="target-passives">
+                    <button type="button" id="target-passives-trigger" class="w-full bg-slate-950 border border-slate-700 rounded-lg p-2 text-sm text-left flex flex-wrap gap-1 items-center min-h-[42px] focus:outline-none focus:border-amber-400">
+                        <span id="target-passives-chips" class="flex flex-wrap gap-1 items-center"><span class="text-slate-400">Desired Passives...</span></span>
+                    </button>
+                    <div id="target-passives-menu" class="hidden absolute left-0 right-0 top-full mt-1 bg-slate-800 border border-slate-700 rounded-lg shadow-2xl z-50 p-2">
+                        <input type="text" id="target-passives-search" placeholder="Search Passive..." autocomplete="off" class="w-full bg-slate-950 border border-slate-700 rounded-md p-2 text-xs text-white mb-2 focus:outline-none focus:border-amber-400">
+                        <div id="target-passives-options" class="max-h-48 overflow-y-auto space-y-1"></div>
+                    </div>
+                </div>
+
+                <button type="submit" class="bg-amber-500 hover:bg-amber-600 text-slate-900 font-bold p-2.5 rounded-lg text-sm transition">Calculate Pairs</button>
+            </form>
+        </section>
+
+        <!-- Results Section -->
+        <section id="results-section" class="bg-slate-900 border border-slate-800 p-6 rounded-2xl shadow-xl hidden">
+            <h2 class="text-lg font-semibold text-slate-200 mb-4">Recommended Breeding Pairs</h2>
+            <div id="breeding-results" class="space-y-4"></div>
+        </section>
+
+    </div>
+
+    <!-- Script loading -->
+    <script src="/static/app.js?v=2.0"></script>
+</body>
+</html>

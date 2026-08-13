@@ -1,0 +1,578 @@
+[
+  {
+    "name": "Abnormal",
+    "polarity": "pos",
+    "rank": 1,
+    "description": "10% decrease to incoming Neutral damage"
+  },
+  {
+    "name": "Ace Swimmer",
+    "polarity": "pos",
+    "rank": 3,
+    "description": "40% increase movement speed on water."
+  },
+  {
+    "name": "Aggressive",
+    "polarity": "pos",
+    "rank": 1,
+    "description": "Attack +10%Defense -10%"
+  },
+  {
+    "name": "Artisan",
+    "polarity": "pos",
+    "rank": 3,
+    "description": "Work speed +50%"
+  },
+  {
+    "name": "Blood of the Dragon",
+    "polarity": "pos",
+    "rank": 1,
+    "description": "10% increase to Dragon attack damage"
+  },
+  {
+    "name": "Botanical Barrier",
+    "polarity": "pos",
+    "rank": 1,
+    "description": "10% decrease to incoming Grass damage"
+  },
+  {
+    "name": "Bottomless Stomach",
+    "polarity": "neg",
+    "rank": 2,
+    "description": "Satiety drops +15% faster"
+  },
+  {
+    "name": "Brave",
+    "polarity": "pos",
+    "rank": 1,
+    "description": "Attack +10%"
+  },
+  {
+    "name": "Brittle",
+    "polarity": "neg",
+    "rank": 3,
+    "description": "Defense -20%"
+  },
+  {
+    "name": "Burly Body",
+    "polarity": "pos",
+    "rank": 3,
+    "description": "Defense +20%"
+  },
+  {
+    "name": "Capacitor",
+    "polarity": "pos",
+    "rank": 1,
+    "description": "10% increase to Electric attack damage"
+  },
+  {
+    "name": "Celestial Emperor",
+    "polarity": "pos",
+    "rank": 3,
+    "description": "20% increase to Neutral attack damage"
+  },
+  {
+    "name": "Cheery",
+    "polarity": "pos",
+    "rank": 1,
+    "description": "10% decrease to incoming Dark damage"
+  },
+  {
+    "name": "Clumsy",
+    "polarity": "neg",
+    "rank": 1,
+    "description": "Work Speed -10%"
+  },
+  {
+    "name": "Coldblooded",
+    "polarity": "pos",
+    "rank": 1,
+    "description": "10% increase to Ice attack damage"
+  },
+  {
+    "name": "Conceited",
+    "polarity": "pos",
+    "rank": 1,
+    "description": "Work Speed +10% Defense -10%"
+  },
+  {
+    "name": "Coward",
+    "polarity": "neg",
+    "rank": 1,
+    "description": "Attack -10%"
+  },
+  {
+    "name": "Dainty Eater",
+    "polarity": "pos",
+    "rank": 1,
+    "description": "Satiety drops +10% slower"
+  },
+  {
+    "name": "Demon God",
+    "polarity": "pos",
+    "rank": 4,
+    "description": "Attack +30%Defense +5%"
+  },
+  {
+    "name": "Demon's Hand",
+    "polarity": "pos",
+    "rank": 4,
+    "description": "Work Speed 90%, SAN decreases +15% faster, World Tree harvestables won't vanish when approached."
+  },
+  {
+    "name": "Destructive",
+    "polarity": "neg",
+    "rank": 2,
+    "description": "SAN drops +15% faster"
+  },
+  {
+    "name": "Diamond Body",
+    "polarity": "pos",
+    "rank": 4,
+    "description": "Defense +30%"
+  },
+  {
+    "name": "Diet Lover",
+    "polarity": "pos",
+    "rank": 3,
+    "description": "Satiety drops +15% slower"
+  },
+  {
+    "name": "Divine Dragon",
+    "polarity": "pos",
+    "rank": 3,
+    "description": "20% increase to Dragon attack damage"
+  },
+  {
+    "name": "Downtrodden",
+    "polarity": "neg",
+    "rank": 1,
+    "description": "Defense -10%"
+  },
+  {
+    "name": "Dragonkiller",
+    "polarity": "pos",
+    "rank": 1,
+    "description": "10% decrease to incoming Dragon damage"
+  },
+  {
+    "name": "Earth Emperor",
+    "polarity": "pos",
+    "rank": 3,
+    "description": "20% increase to Ground attack damage"
+  },
+  {
+    "name": "Earthquake Resistant",
+    "polarity": "pos",
+    "rank": 1,
+    "description": "10% decrease to incoming Ground damage"
+  },
+  {
+    "name": "Easygoing",
+    "polarity": "neg",
+    "rank": 1,
+    "description": "Active skill cooldown extension -15%"
+  },
+  {
+    "name": "Eternal Engine",
+    "polarity": "pos",
+    "rank": 4,
+    "description": "Max stamina +75%. This effect is only valid for rideable pals."
+  },
+  {
+    "name": "Eternal Flame",
+    "polarity": "pos",
+    "rank": 3,
+    "description": "30% increase to Fire attack damage. 30% increase to Electric attack damage."
+  },
+  {
+    "name": "Ferocious",
+    "polarity": "pos",
+    "rank": 3,
+    "description": "Attack +20%"
+  },
+  {
+    "name": "Fine Furs",
+    "polarity": "pos",
+    "rank": 1,
+    "description": "Sale price +3%"
+  },
+  {
+    "name": "Fit as a Fiddle",
+    "polarity": "pos",
+    "rank": 1,
+    "description": "Max stamina +25%. This effect is only valid for rideable pals."
+  },
+  {
+    "name": "Flame Emperor",
+    "polarity": "pos",
+    "rank": 3,
+    "description": "20% increase to Fire attack damage"
+  },
+  {
+    "name": "Fragrant Foliage",
+    "polarity": "pos",
+    "rank": 1,
+    "description": "10% increase to Grass attack damage"
+  },
+  {
+    "name": "Glutton",
+    "polarity": "neg",
+    "rank": 1,
+    "description": "Satiety drops +10% faster"
+  },
+  {
+    "name": "Hard Skin",
+    "polarity": "pos",
+    "rank": 1,
+    "description": "Defense +10%"
+  },
+  {
+    "name": "Heart of the Immovable King",
+    "polarity": "pos",
+    "rank": 4,
+    "description": "SAN drops +20% slower"
+  },
+  {
+    "name": "Heated Body",
+    "polarity": "pos",
+    "rank": 1,
+    "description": "10% decrease in incoming Ice damage."
+  },
+  {
+    "name": "Hooligan",
+    "polarity": "pos",
+    "rank": 1,
+    "description": "Attack 15% Work Speed -10%"
+  },
+  {
+    "name": "Hydromaniac",
+    "polarity": "pos",
+    "rank": 1,
+    "description": "10% increase in Water attack damage."
+  },
+  {
+    "name": "Ice Emperor",
+    "polarity": "pos",
+    "rank": 3,
+    "description": "20% increase in Ice attack damage."
+  },
+  {
+    "name": "Idiosyncratic",
+    "polarity": "pos",
+    "rank": 4,
+    "description": "Pal and Player Auto Health Regeneration Rate +50% Defense +25% Immune to Poison Damage Immune to Burn Damage"
+  },
+  {
+    "name": "Immortality",
+    "polarity": "pos",
+    "rank": 4,
+    "description": "Life steal +5% Pal auto regeneration rate +100.0% Attack +15%"
+  },
+  {
+    "name": "Impatient",
+    "polarity": "pos",
+    "rank": 1,
+    "description": "Active skill cooldown reduction 15%"
+  },
+  {
+    "name": "Infinite Stamina",
+    "polarity": "pos",
+    "rank": 3,
+    "description": "Max stamina +50% (This effect is only valid for rideable pals.)"
+  },
+  {
+    "name": "Insomnia",
+    "polarity": "pos",
+    "rank": 1,
+    "description": "Does not sleep and continues to work even at night."
+  },
+  {
+    "name": "Insulated Body",
+    "polarity": "pos",
+    "rank": 1,
+    "description": "10% decrease in incoming Lightning damage."
+  },
+  {
+    "name": "Invader",
+    "polarity": "pos",
+    "rank": 4,
+    "description": "30% increase in Dark attack damage. 30% increase in Dragon attack damage."
+  },
+  {
+    "name": "King of the Waves",
+    "polarity": "pos",
+    "rank": 4,
+    "description": "50% increase movement speed on water."
+  },
+  {
+    "name": "Legend",
+    "polarity": "pos",
+    "rank": 4,
+    "description": "Attack +20%Defense +20%Movement Speed increases 15%"
+  },
+  {
+    "name": "Logging Foreman",
+    "polarity": "pos",
+    "rank": 3,
+    "description": "25% increase in Player Logging Efficiency."
+  },
+  {
+    "name": "Lord of Lightning",
+    "polarity": "pos",
+    "rank": 3,
+    "description": "20% increase in Lightning attack damage."
+  },
+  {
+    "name": "Lord of the Sea",
+    "polarity": "pos",
+    "rank": 3,
+    "description": "20% increase in Water attack damage."
+  },
+  {
+    "name": "Lord of the Underworld",
+    "polarity": "pos",
+    "rank": 3,
+    "description": "20% increase in Dark attack damage."
+  },
+  {
+    "name": "Lucky",
+    "polarity": "pos",
+    "rank": 4,
+    "description": "Attack 15% Defense 15% Work Speed 20%"
+  },
+  {
+    "name": "Lunker",
+    "polarity": "pos",
+    "rank": 4,
+    "description": "20% increase to Water attack damage 20% increase to Ice attack damage 20% increase to defense."
+  },
+  {
+    "name": "Masochist",
+    "polarity": "pos",
+    "rank": 1,
+    "description": "Defense 15% Attack -15%"
+  },
+  {
+    "name": "Mastery of Fasting",
+    "polarity": "pos",
+    "rank": 4,
+    "description": "Hunger decreases +20.0% slower."
+  },
+  {
+    "name": "Mercy Hit",
+    "polarity": "neg",
+    "rank": 1,
+    "description": "Pacifist. Will not reduce the target's Health below 1."
+  },
+  {
+    "name": "Mine Foreman",
+    "polarity": "pos",
+    "rank": 3,
+    "description": "25% increase in Player Mining Efficiency."
+  },
+  {
+    "name": "Motivational Leader",
+    "polarity": "pos",
+    "rank": 3,
+    "description": "25% increase in Player Work Speed."
+  },
+  {
+    "name": "Musclehead",
+    "polarity": "pos",
+    "rank": 2,
+    "description": "Attack 30% Work Speed -50%"
+  },
+  {
+    "name": "Nimble",
+    "polarity": "pos",
+    "rank": 1,
+    "description": "10% increase to movement speed."
+  },
+  {
+    "name": "Noble",
+    "polarity": "pos",
+    "rank": 3,
+    "description": "Increases the value of items when sold by +5%"
+  },
+  {
+    "name": "Otherworldly Cells",
+    "polarity": "pos",
+    "rank": 1,
+    "description": "Attack +10% Fire damage reduction 15% Lightning damage reduction 15%"
+  },
+  {
+    "name": "Pacifist",
+    "polarity": "neg",
+    "rank": 3,
+    "description": "Attack -20%"
+  },
+  {
+    "name": "Philanthropist",
+    "polarity": "pos",
+    "rank": 3,
+    "description": "When assigned to a Breeding Farm, breeding speed is increased by 100%."
+  },
+  {
+    "name": "Positive Thinker",
+    "polarity": "pos",
+    "rank": 1,
+    "description": "SAN drops +10.0% slower."
+  },
+  {
+    "name": "Power of Gaia",
+    "polarity": "pos",
+    "rank": 1,
+    "description": "10% increase in Earth attack damage."
+  },
+  {
+    "name": "Pyromaniac",
+    "polarity": "pos",
+    "rank": 1,
+    "description": "10% increase in Fire attack damage."
+  },
+  {
+    "name": "Ranch Master",
+    "polarity": "pos",
+    "rank": 4,
+    "description": "Farming's Work Suitability +2."
+  },
+  {
+    "name": "Remarkable Craftsmanship",
+    "polarity": "pos",
+    "rank": 4,
+    "description": "Work Speed 75%"
+  },
+  {
+    "name": "Runner",
+    "polarity": "pos",
+    "rank": 3,
+    "description": "20% increase to movement speed."
+  },
+  {
+    "name": "Sadist",
+    "polarity": "pos",
+    "rank": 1,
+    "description": "Attack 15% Defense -15%"
+  },
+  {
+    "name": "Savior",
+    "polarity": "pos",
+    "rank": 4,
+    "description": "30% increase in Neutral attack damage. 30% increase in Grass attack damage."
+  },
+  {
+    "name": "Serenity",
+    "polarity": "pos",
+    "rank": 3,
+    "description": "Active skill cooldown reduction 30% Attack +10%"
+  },
+  {
+    "name": "Serious",
+    "polarity": "pos",
+    "rank": 1,
+    "description": "Work Speed 20%"
+  },
+  {
+    "name": "Shabby",
+    "polarity": "neg",
+    "rank": 1,
+    "description": "Decrease the value of items when sold by -10%"
+  },
+  {
+    "name": "Sickly",
+    "polarity": "neg",
+    "rank": 1,
+    "description": "Max Stamina -25% This effect is only valid for rideable pals."
+  },
+  {
+    "name": "Siren of the Void",
+    "polarity": "pos",
+    "rank": 4,
+    "description": "30% increase in Dark attack damage. 30% increase in Ice attack damage."
+  },
+  {
+    "name": "Slacker",
+    "polarity": "neg",
+    "rank": 3,
+    "description": "Work Speed -30%"
+  },
+  {
+    "name": "Sleek Stroke",
+    "polarity": "pos",
+    "rank": 1,
+    "description": "30% increase movement speed on water."
+  },
+  {
+    "name": "Spirit Emperor",
+    "polarity": "pos",
+    "rank": 3,
+    "description": "20% increase in Grass attack damage."
+  },
+  {
+    "name": "Stronghold Strategist",
+    "polarity": "pos",
+    "rank": 3,
+    "description": "10% increase in Player Defense."
+  },
+  {
+    "name": "Suntan Lover",
+    "polarity": "pos",
+    "rank": 1,
+    "description": "10% decrease in incoming Fire damage."
+  },
+  {
+    "name": "Swift",
+    "polarity": "pos",
+    "rank": 4,
+    "description": "30% increase to movement speed."
+  },
+  {
+    "name": "Unstable",
+    "polarity": "neg",
+    "rank": 1,
+    "description": "SAN drops +10.0% faster."
+  },
+  {
+    "name": "Vampiric",
+    "polarity": "pos",
+    "rank": 4,
+    "description": "Absorbs a portion of the damage dealt to restore . Does not sleep at night and continues to work."
+  },
+  {
+    "name": "Vanguard",
+    "polarity": "pos",
+    "rank": 3,
+    "description": "10% increase in Player Attack."
+  },
+  {
+    "name": "Veil of Darkness",
+    "polarity": "pos",
+    "rank": 1,
+    "description": "10% increase in Dark attack damage."
+  },
+  {
+    "name": "Waterproof",
+    "polarity": "pos",
+    "rank": 1,
+    "description": "10% decrease in incoming Water damage."
+  },
+  {
+    "name": "Work Slave",
+    "polarity": "pos",
+    "rank": 1,
+    "description": "Work Speed 30% Attack -30%"
+  },
+  {
+    "name": "Workaholic",
+    "polarity": "pos",
+    "rank": 3,
+    "description": "SAN drops +15.0% slower."
+  },
+  {
+    "name": "Zen Mind",
+    "polarity": "pos",
+    "rank": 1,
+    "description": "10% increase in Neutral attack damage."
+  }
+]

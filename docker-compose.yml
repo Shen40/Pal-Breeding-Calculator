@@ -1,0 +1,25 @@
+services:
+  web:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      - DATABASE_URL=postgresql://${POSTGRES_USER:-pal_user}:${POSTGRES_PASSWORD:-pal_pass}@db:5432/${POSTGRES_DB:-palworld_db}
+      - SECRET_KEY=${SECRET_KEY:?SECRET_KEY must be set in .env}
+      - CORS_ORIGINS=${CORS_ORIGINS:-["http://localhost:8000"]}
+    depends_on:
+      - db
+
+  db:
+    image: postgres:15-alpine
+    environment:
+      - POSTGRES_USER=${POSTGRES_USER:-pal_user}
+      - POSTGRES_PASSWORD=${POSTGRES_PASSWORD:-pal_pass}
+      - POSTGRES_DB=${POSTGRES_DB:-palworld_db}
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+
+volumes:
+  postgres_data:

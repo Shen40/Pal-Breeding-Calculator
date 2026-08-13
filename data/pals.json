@@ -1,0 +1,1796 @@
+[
+  {
+    "id": 1,
+    "name": "Lamball",
+    "index": "001",
+    "power": 3050
+  },
+  {
+    "id": 2,
+    "name": "Cattiva",
+    "index": "002",
+    "power": 2760
+  },
+  {
+    "id": 3,
+    "name": "Chikipi",
+    "index": "003",
+    "power": 3080
+  },
+  {
+    "id": 4,
+    "name": "Lifmunk",
+    "index": "004",
+    "power": 3020
+  },
+  {
+    "id": 5,
+    "name": "Fuack",
+    "index": "005",
+    "power": 2980
+  },
+  {
+    "id": 6,
+    "name": "Fuack Ignis",
+    "index": "005B",
+    "power": 2300
+  },
+  {
+    "id": 7,
+    "name": "Vixy",
+    "index": "006",
+    "power": 3060
+  },
+  {
+    "id": 8,
+    "name": "Celaray",
+    "index": "007",
+    "power": 2740
+  },
+  {
+    "id": 9,
+    "name": "Celaray Lux",
+    "index": "007B",
+    "power": 2380
+  },
+  {
+    "id": 10,
+    "name": "Cremis",
+    "index": "008",
+    "power": 2890
+  },
+  {
+    "id": 11,
+    "name": "Croajiro",
+    "index": "009",
+    "power": 2600
+  },
+  {
+    "id": 12,
+    "name": "Croajiro Noct",
+    "index": "009B",
+    "power": 1860
+  },
+  {
+    "id": 13,
+    "name": "Herbil",
+    "index": "010",
+    "power": 2630
+  },
+  {
+    "id": 14,
+    "name": "Teafant",
+    "index": "011",
+    "power": 3070
+  },
+  {
+    "id": 15,
+    "name": "Gumoss",
+    "index": "012",
+    "power": 2950
+  },
+  {
+    "id": 16,
+    "name": "Pupperai",
+    "index": "013",
+    "power": 2930
+  },
+  {
+    "id": 17,
+    "name": "Clovee",
+    "index": "014",
+    "power": 2970
+  },
+  {
+    "id": 18,
+    "name": "Jolthog",
+    "index": "015",
+    "power": 3030
+  },
+  {
+    "id": 19,
+    "name": "Jolthog Cryst",
+    "index": "015B",
+    "power": 2850
+  },
+  {
+    "id": 20,
+    "name": "Depresso",
+    "index": "016",
+    "power": 3000
+  },
+  {
+    "id": 21,
+    "name": "Pengullet",
+    "index": "017",
+    "power": 2960
+  },
+  {
+    "id": 22,
+    "name": "Pengullet Lux",
+    "index": "017B",
+    "power": 2490
+  },
+  {
+    "id": 23,
+    "name": "Penking",
+    "index": "018",
+    "power": 2070
+  },
+  {
+    "id": 24,
+    "name": "Penking Lux",
+    "index": "018B",
+    "power": 1850
+  },
+  {
+    "id": 25,
+    "name": "Hoocrates",
+    "index": "019",
+    "power": 2940
+  },
+  {
+    "id": 26,
+    "name": "Melpaca",
+    "index": "020",
+    "power": 2720
+  },
+  {
+    "id": 27,
+    "name": "Kingpaca",
+    "index": "021",
+    "power": 2220
+  },
+  {
+    "id": 28,
+    "name": "Kingpaca Cryst",
+    "index": "021B",
+    "power": 1530
+  },
+  {
+    "id": 29,
+    "name": "Daedream",
+    "index": "022",
+    "power": 2910
+  },
+  {
+    "id": 30,
+    "name": "Tanzee",
+    "index": "023",
+    "power": 2900
+  },
+  {
+    "id": 31,
+    "name": "Tanzee Ignis",
+    "index": "023B",
+    "power": 2830
+  },
+  {
+    "id": 32,
+    "name": "Nox",
+    "index": "024",
+    "power": 2920
+  },
+  {
+    "id": 33,
+    "name": "Flambelle",
+    "index": "025",
+    "power": 2700
+  },
+  {
+    "id": 34,
+    "name": "Rooby",
+    "index": "026",
+    "power": 2870
+  },
+  {
+    "id": 35,
+    "name": "Mau",
+    "index": "027",
+    "power": 3040
+  },
+  {
+    "id": 36,
+    "name": "Mau Cryst",
+    "index": "027B",
+    "power": 2750
+  },
+  {
+    "id": 37,
+    "name": "Rushoar",
+    "index": "028",
+    "power": 2880
+  },
+  {
+    "id": 38,
+    "name": "Foxparks",
+    "index": "029",
+    "power": 2990
+  },
+  {
+    "id": 39,
+    "name": "Foxparks Cryst",
+    "index": "029B",
+    "power": 2500
+  },
+  {
+    "id": 40,
+    "name": "Killamari",
+    "index": "030",
+    "power": 2770
+  },
+  {
+    "id": 41,
+    "name": "Killamari Primo",
+    "index": "030B",
+    "power": 2540
+  },
+  {
+    "id": 42,
+    "name": "Fuddler",
+    "index": "031",
+    "power": 2790
+  },
+  {
+    "id": 43,
+    "name": "Eikthyrdeer",
+    "index": "032",
+    "power": 2710
+  },
+  {
+    "id": 44,
+    "name": "Eikthyrdeer Terra",
+    "index": "032B",
+    "power": 2580
+  },
+  {
+    "id": 45,
+    "name": "Direhowl",
+    "index": "033",
+    "power": 2680
+  },
+  {
+    "id": 46,
+    "name": "Caprity",
+    "index": "034",
+    "power": 2610
+  },
+  {
+    "id": 47,
+    "name": "Caprity Noct",
+    "index": "034B",
+    "power": 1940
+  },
+  {
+    "id": 48,
+    "name": "Swee",
+    "index": "035",
+    "power": 2840
+  },
+  {
+    "id": 49,
+    "name": "Sweepa",
+    "index": "036",
+    "power": 2150
+  },
+  {
+    "id": 50,
+    "name": "Turtacle",
+    "index": "037",
+    "power": 2410
+  },
+  {
+    "id": 51,
+    "name": "Turtacle Terra",
+    "index": "037B",
+    "power": 1330
+  },
+  {
+    "id": 52,
+    "name": "Hangyu",
+    "index": "038",
+    "power": 2780
+  },
+  {
+    "id": 53,
+    "name": "Hangyu Cryst",
+    "index": "038B",
+    "power": 2510
+  },
+  {
+    "id": 54,
+    "name": "Woolipop",
+    "index": "039",
+    "power": 2820
+  },
+  {
+    "id": 55,
+    "name": "Woolipop Terra",
+    "index": "039B",
+    "power": 2030
+  },
+  {
+    "id": 56,
+    "name": "Mozzarina",
+    "index": "040",
+    "power": 2800
+  },
+  {
+    "id": 57,
+    "name": "Azurobe",
+    "index": "041",
+    "power": 1830
+  },
+  {
+    "id": 58,
+    "name": "Azurobe Cryst",
+    "index": "041B",
+    "power": 1220
+  },
+  {
+    "id": 59,
+    "name": "Sparkit",
+    "index": "042",
+    "power": 3010
+  },
+  {
+    "id": 60,
+    "name": "Kelpsea",
+    "index": "043",
+    "power": 2810
+  },
+  {
+    "id": 61,
+    "name": "Kelpsea Ignis",
+    "index": "043B",
+    "power": 2470
+  },
+  {
+    "id": 62,
+    "name": "Ribbuny",
+    "index": "044",
+    "power": 2860
+  },
+  {
+    "id": 63,
+    "name": "Ribbuny Botan",
+    "index": "044B",
+    "power": 2460
+  },
+  {
+    "id": 64,
+    "name": "Jelliette",
+    "index": "045",
+    "power": 2650
+  },
+  {
+    "id": 65,
+    "name": "Jellroy",
+    "index": "046",
+    "power": 2590
+  },
+  {
+    "id": 66,
+    "name": "Amione",
+    "index": "047",
+    "power": 2520
+  },
+  {
+    "id": 67,
+    "name": "Gloopie",
+    "index": "048",
+    "power": 2530
+  },
+  {
+    "id": 68,
+    "name": "Gloopie Primo",
+    "index": "048B",
+    "power": 1630
+  },
+  {
+    "id": 69,
+    "name": "Galeclaw",
+    "index": "049",
+    "power": 2570
+  },
+  {
+    "id": 70,
+    "name": "Wispaw",
+    "index": "050",
+    "power": 2250
+  },
+  {
+    "id": 71,
+    "name": "Nitewing",
+    "index": "051",
+    "power": 2560
+  },
+  {
+    "id": 72,
+    "name": "Tombat",
+    "index": "052",
+    "power": 2340
+  },
+  {
+    "id": 73,
+    "name": "Tocotoco",
+    "index": "053",
+    "power": 2730
+  },
+  {
+    "id": 74,
+    "name": "Univolt",
+    "index": "054",
+    "power": 2270
+  },
+  {
+    "id": 75,
+    "name": "Univolt Cryst",
+    "index": "054B",
+    "power": 540
+  },
+  {
+    "id": 76,
+    "name": "Gobfin",
+    "index": "055",
+    "power": 2550
+  },
+  {
+    "id": 77,
+    "name": "Gobfin Ignis",
+    "index": "055B",
+    "power": 2430
+  },
+  {
+    "id": 78,
+    "name": "Loupmoon",
+    "index": "056",
+    "power": 2110
+  },
+  {
+    "id": 79,
+    "name": "Loupmoon Cryst",
+    "index": "056B",
+    "power": 1290
+  },
+  {
+    "id": 80,
+    "name": "Cawgnito",
+    "index": "057",
+    "power": 2370
+  },
+  {
+    "id": 81,
+    "name": "Arsox",
+    "index": "058",
+    "power": 2320
+  },
+  {
+    "id": 82,
+    "name": "Muffly",
+    "index": "059",
+    "power": 2480
+  },
+  {
+    "id": 83,
+    "name": "Bristla",
+    "index": "060",
+    "power": 2690
+  },
+  {
+    "id": 84,
+    "name": "Cinnamoth",
+    "index": "061",
+    "power": 2620
+  },
+  {
+    "id": 85,
+    "name": "Puffolt",
+    "index": "062",
+    "power": 2360
+  },
+  {
+    "id": 86,
+    "name": "Elphidran",
+    "index": "063",
+    "power": 2280
+  },
+  {
+    "id": 87,
+    "name": "Elphidran Aqua",
+    "index": "063B",
+    "power": 1640
+  },
+  {
+    "id": 88,
+    "name": "Vanwyrm",
+    "index": "064",
+    "power": 1650
+  },
+  {
+    "id": 89,
+    "name": "Vanwyrm Cryst",
+    "index": "064B",
+    "power": 1430
+  },
+  {
+    "id": 90,
+    "name": "Felbat",
+    "index": "065",
+    "power": 1570
+  },
+  {
+    "id": 91,
+    "name": "Vaelet",
+    "index": "066",
+    "power": 1480
+  },
+  {
+    "id": 92,
+    "name": "Beegarde",
+    "index": "067",
+    "power": 2350
+  },
+  {
+    "id": 93,
+    "name": "Elizabee",
+    "index": "068",
+    "power": 1790
+  },
+  {
+    "id": 94,
+    "name": "Lovander",
+    "index": "069",
+    "power": 2090
+  },
+  {
+    "id": 95,
+    "name": "Grintale",
+    "index": "070",
+    "power": 2120
+  },
+  {
+    "id": 96,
+    "name": "Tarantriss",
+    "index": "071",
+    "power": 1730
+  },
+  {
+    "id": 97,
+    "name": "Polapup",
+    "index": "072",
+    "power": 1660
+  },
+  {
+    "id": 98,
+    "name": "Polapup Terra",
+    "index": "072B",
+    "power": 1100
+  },
+  {
+    "id": 99,
+    "name": "Leezpunk",
+    "index": "073",
+    "power": 2670
+  },
+  {
+    "id": 100,
+    "name": "Leezpunk Ignis",
+    "index": "073B",
+    "power": 2640
+  },
+  {
+    "id": 101,
+    "name": "Gorirat",
+    "index": "074",
+    "power": 2140
+  },
+  {
+    "id": 102,
+    "name": "Gorirat Terra",
+    "index": "074B",
+    "power": 1880
+  },
+  {
+    "id": 103,
+    "name": "Surfent",
+    "index": "075",
+    "power": 2440
+  },
+  {
+    "id": 104,
+    "name": "Surfent Terra",
+    "index": "075B",
+    "power": 1840
+  },
+  {
+    "id": 105,
+    "name": "Robinquill",
+    "index": "076",
+    "power": 2260
+  },
+  {
+    "id": 106,
+    "name": "Robinquill Terra",
+    "index": "076B",
+    "power": 2050
+  },
+  {
+    "id": 107,
+    "name": "Flopie",
+    "index": "077",
+    "power": 2660
+  },
+  {
+    "id": 108,
+    "name": "Wixen",
+    "index": "078",
+    "power": 2080
+  },
+  {
+    "id": 109,
+    "name": "Wixen Noct",
+    "index": "078B",
+    "power": 1490
+  },
+  {
+    "id": 110,
+    "name": "Katress",
+    "index": "079",
+    "power": 2040
+  },
+  {
+    "id": 111,
+    "name": "Katress Ignis",
+    "index": "079B",
+    "power": 1800
+  },
+  {
+    "id": 112,
+    "name": "Helzephyr",
+    "index": "080",
+    "power": 1130
+  },
+  {
+    "id": 113,
+    "name": "Helzephyr Lux",
+    "index": "080B",
+    "power": 960
+  },
+  {
+    "id": 114,
+    "name": "Elgrove",
+    "index": "081",
+    "power": 2020
+  },
+  {
+    "id": 115,
+    "name": "Elgrove Cryst",
+    "index": "081B",
+    "power": 440
+  },
+  {
+    "id": 116,
+    "name": "Lunaris",
+    "index": "082",
+    "power": 2010
+  },
+  {
+    "id": 117,
+    "name": "Fenglope",
+    "index": "083",
+    "power": 1960
+  },
+  {
+    "id": 118,
+    "name": "Fenglope Lux",
+    "index": "083B",
+    "power": 900
+  },
+  {
+    "id": 119,
+    "name": "Dinossom",
+    "index": "084",
+    "power": 2100
+  },
+  {
+    "id": 120,
+    "name": "Dinossom Lux",
+    "index": "084B",
+    "power": 1890
+  },
+  {
+    "id": 121,
+    "name": "Bushi",
+    "index": "085",
+    "power": 1560
+  },
+  {
+    "id": 122,
+    "name": "Bushi Noct",
+    "index": "085B",
+    "power": 840
+  },
+  {
+    "id": 123,
+    "name": "Munchill",
+    "index": "086",
+    "power": 2130
+  },
+  {
+    "id": 124,
+    "name": "Mammorest",
+    "index": "087",
+    "power": 1340
+  },
+  {
+    "id": 125,
+    "name": "Mammorest Cryst",
+    "index": "087B",
+    "power": 1070
+  },
+  {
+    "id": 126,
+    "name": "Finsider",
+    "index": "088",
+    "power": 2450
+  },
+  {
+    "id": 127,
+    "name": "Finsider Ignis",
+    "index": "088B",
+    "power": 2240
+  },
+  {
+    "id": 128,
+    "name": "Petallia",
+    "index": "089",
+    "power": 1720
+  },
+  {
+    "id": 129,
+    "name": "Petallia Ignis",
+    "index": "089B",
+    "power": 820
+  },
+  {
+    "id": 130,
+    "name": "Leafan",
+    "index": "090",
+    "power": 1410
+  },
+  {
+    "id": 131,
+    "name": "Incineram",
+    "index": "091",
+    "power": 1470
+  },
+  {
+    "id": 132,
+    "name": "Incineram Noct",
+    "index": "091B",
+    "power": 1310
+  },
+  {
+    "id": 133,
+    "name": "Dazzi",
+    "index": "092",
+    "power": 2400
+  },
+  {
+    "id": 134,
+    "name": "Dazzi Noct",
+    "index": "092B",
+    "power": 1910
+  },
+  {
+    "id": 135,
+    "name": "Pyrin",
+    "index": "093",
+    "power": 1980
+  },
+  {
+    "id": 136,
+    "name": "Pyrin Noct",
+    "index": "093B",
+    "power": 1870
+  },
+  {
+    "id": 137,
+    "name": "Relaxaurus",
+    "index": "094",
+    "power": 1090
+  },
+  {
+    "id": 138,
+    "name": "Relaxaurus Lux",
+    "index": "094B",
+    "power": 770
+  },
+  {
+    "id": 139,
+    "name": "Foxcicle",
+    "index": "095",
+    "power": 1970
+  },
+  {
+    "id": 140,
+    "name": "Beakon",
+    "index": "096",
+    "power": 1690
+  },
+  {
+    "id": 141,
+    "name": "Beakon Cryst",
+    "index": "096B",
+    "power": 580
+  },
+  {
+    "id": 142,
+    "name": "Ghangler",
+    "index": "097",
+    "power": 880
+  },
+  {
+    "id": 143,
+    "name": "Ghangler Ignis",
+    "index": "097B",
+    "power": 720
+  },
+  {
+    "id": 144,
+    "name": "Rayhound",
+    "index": "098",
+    "power": 1920
+  },
+  {
+    "id": 145,
+    "name": "Rayhound Cryst",
+    "index": "098B",
+    "power": 1600
+  },
+  {
+    "id": 146,
+    "name": "Menasting",
+    "index": "099",
+    "power": 1120
+  },
+  {
+    "id": 147,
+    "name": "Menasting Terra",
+    "index": "099B",
+    "power": 640
+  },
+  {
+    "id": 148,
+    "name": "Needoll",
+    "index": "100",
+    "power": 2420
+  },
+  {
+    "id": 149,
+    "name": "Needoll Noct",
+    "index": "100B",
+    "power": 1580
+  },
+  {
+    "id": 150,
+    "name": "Reindrix",
+    "index": "101",
+    "power": 1930
+  },
+  {
+    "id": 151,
+    "name": "Mossanda",
+    "index": "102",
+    "power": 2060
+  },
+  {
+    "id": 152,
+    "name": "Mossanda Lux",
+    "index": "102B",
+    "power": 1440
+  },
+  {
+    "id": 153,
+    "name": "Chillet",
+    "index": "103",
+    "power": 2330
+  },
+  {
+    "id": 154,
+    "name": "Chillet Ignis",
+    "index": "103B",
+    "power": 1950
+  },
+  {
+    "id": 155,
+    "name": "Ragnahawk",
+    "index": "104",
+    "power": 1050
+  },
+  {
+    "id": 156,
+    "name": "Moldron",
+    "index": "105",
+    "power": 750
+  },
+  {
+    "id": 157,
+    "name": "Moldron Cryst",
+    "index": "105B",
+    "power": 380
+  },
+  {
+    "id": 158,
+    "name": "Palumba",
+    "index": "106",
+    "power": 1240
+  },
+  {
+    "id": 159,
+    "name": "Digtoise",
+    "index": "107",
+    "power": 1550
+  },
+  {
+    "id": 160,
+    "name": "Broncherry",
+    "index": "108",
+    "power": 1380
+  },
+  {
+    "id": 161,
+    "name": "Broncherry Aqua",
+    "index": "108B",
+    "power": 1080
+  },
+  {
+    "id": 162,
+    "name": "Dumud",
+    "index": "109",
+    "power": 2290
+  },
+  {
+    "id": 163,
+    "name": "Dumud Gild",
+    "index": "109B",
+    "power": 1620
+  },
+  {
+    "id": 164,
+    "name": "Braloha",
+    "index": "110",
+    "power": 1030
+  },
+  {
+    "id": 165,
+    "name": "Kitsun",
+    "index": "111",
+    "power": 1670
+  },
+  {
+    "id": 166,
+    "name": "Kitsun Noct",
+    "index": "111B",
+    "power": 800
+  },
+  {
+    "id": 167,
+    "name": "Blazehowl",
+    "index": "112",
+    "power": 1360
+  },
+  {
+    "id": 168,
+    "name": "Blazehowl Noct",
+    "index": "112B",
+    "power": 1270
+  },
+  {
+    "id": 169,
+    "name": "Warsect",
+    "index": "113",
+    "power": 1280
+  },
+  {
+    "id": 170,
+    "name": "Warsect Terra",
+    "index": "113B",
+    "power": 630
+  },
+  {
+    "id": 171,
+    "name": "Frostplume",
+    "index": "114",
+    "power": 860
+  },
+  {
+    "id": 172,
+    "name": "Majex",
+    "index": "115",
+    "power": 1010
+  },
+  {
+    "id": 173,
+    "name": "Sibelyx",
+    "index": "116",
+    "power": 1810
+  },
+  {
+    "id": 174,
+    "name": "Sibelyx Primo",
+    "index": "116B",
+    "power": 650
+  },
+  {
+    "id": 175,
+    "name": "Maraith",
+    "index": "117",
+    "power": 1710
+  },
+  {
+    "id": 176,
+    "name": "Shroomer",
+    "index": "118",
+    "power": 1520
+  },
+  {
+    "id": 177,
+    "name": "Shroomer Noct",
+    "index": "118B",
+    "power": 1450
+  },
+  {
+    "id": 178,
+    "name": "Icelyn",
+    "index": "119",
+    "power": 1260
+  },
+  {
+    "id": 179,
+    "name": "Gildra",
+    "index": "120",
+    "power": 1170
+  },
+  {
+    "id": 180,
+    "name": "Jormuntide",
+    "index": "121",
+    "power": 590
+  },
+  {
+    "id": 181,
+    "name": "Jormuntide Ignis",
+    "index": "121B",
+    "power": 170
+  },
+  {
+    "id": 182,
+    "name": "Suzaku",
+    "index": "122",
+    "power": 1200
+  },
+  {
+    "id": 183,
+    "name": "Suzaku Aqua",
+    "index": "122B",
+    "power": 740
+  },
+  {
+    "id": 184,
+    "name": "Dazemu",
+    "index": "123",
+    "power": 2210
+  },
+  {
+    "id": 185,
+    "name": "Quivern",
+    "index": "124",
+    "power": 1210
+  },
+  {
+    "id": 186,
+    "name": "Quivern Botan",
+    "index": "124B",
+    "power": 1300
+  },
+  {
+    "id": 187,
+    "name": "Lullu",
+    "index": "125",
+    "power": 1990
+  },
+  {
+    "id": 188,
+    "name": "Kikit",
+    "index": "126",
+    "power": 2310
+  },
+  {
+    "id": 189,
+    "name": "Yakumo",
+    "index": "127",
+    "power": 2230
+  },
+  {
+    "id": 190,
+    "name": "Skutlass",
+    "index": "128",
+    "power": 1420
+  },
+  {
+    "id": 191,
+    "name": "Skutlass Ignis",
+    "index": "128B",
+    "power": 1590
+  },
+  {
+    "id": 192,
+    "name": "Reptyro",
+    "index": "129",
+    "power": 1060
+  },
+  {
+    "id": 193,
+    "name": "Reptyro Cryst",
+    "index": "129B",
+    "power": 600
+  },
+  {
+    "id": 194,
+    "name": "Starryon",
+    "index": "130",
+    "power": 1150
+  },
+  {
+    "id": 195,
+    "name": "Starryon Primo",
+    "index": "130B",
+    "power": 430
+  },
+  {
+    "id": 196,
+    "name": "Pierdon",
+    "index": "131",
+    "power": 1110
+  },
+  {
+    "id": 197,
+    "name": "Pierdon Cryst",
+    "index": "131B",
+    "power": 460
+  },
+  {
+    "id": 198,
+    "name": "Cryolinx",
+    "index": "132",
+    "power": 1040
+  },
+  {
+    "id": 199,
+    "name": "Cryolinx Terra",
+    "index": "132B",
+    "power": 470
+  },
+  {
+    "id": 200,
+    "name": "Snugloo",
+    "index": "133",
+    "power": 2390
+  },
+  {
+    "id": 201,
+    "name": "Wumpo",
+    "index": "134",
+    "power": 830
+  },
+  {
+    "id": 202,
+    "name": "Wumpo Botan",
+    "index": "134B",
+    "power": 610
+  },
+  {
+    "id": 203,
+    "name": "Sootseer",
+    "index": "135",
+    "power": 980
+  },
+  {
+    "id": 204,
+    "name": "Carnibora",
+    "index": "136",
+    "power": 1700
+  },
+  {
+    "id": 205,
+    "name": "Blazamut",
+    "index": "137",
+    "power": 410
+  },
+  {
+    "id": 206,
+    "name": "Blazamut Ryu",
+    "index": "137B",
+    "power": 100
+  },
+  {
+    "id": 207,
+    "name": "Dualith",
+    "index": "138",
+    "power": 510
+  },
+  {
+    "id": 208,
+    "name": "Dualith Noct",
+    "index": "138B",
+    "power": 250
+  },
+  {
+    "id": 209,
+    "name": "Anubis",
+    "index": "139",
+    "power": 480
+  },
+  {
+    "id": 210,
+    "name": "Sekhmet",
+    "index": "140",
+    "power": 870
+  },
+  {
+    "id": 211,
+    "name": "Prixter",
+    "index": "141",
+    "power": 1510
+  },
+  {
+    "id": 212,
+    "name": "Prixter Lux",
+    "index": "141B",
+    "power": 850
+  },
+  {
+    "id": 213,
+    "name": "Tetroise",
+    "index": "142",
+    "power": 790
+  },
+  {
+    "id": 214,
+    "name": "Tetroise Primo",
+    "index": "142B",
+    "power": 200
+  },
+  {
+    "id": 215,
+    "name": "Nyafia",
+    "index": "143",
+    "power": 1250
+  },
+  {
+    "id": 216,
+    "name": "Mimog",
+    "index": "144",
+    "power": 1740
+  },
+  {
+    "id": 217,
+    "name": "Xenovader",
+    "index": "145",
+    "power": 1820
+  },
+  {
+    "id": 218,
+    "name": "Xenogard",
+    "index": "146",
+    "power": 990
+  },
+  {
+    "id": 219,
+    "name": "Prunelia",
+    "index": "147",
+    "power": 1390
+  },
+  {
+    "id": 220,
+    "name": "Nitemary",
+    "index": "148",
+    "power": 1230
+  },
+  {
+    "id": 221,
+    "name": "Nitemary Botan",
+    "index": "148B",
+    "power": 1320
+  },
+  {
+    "id": 222,
+    "name": "Smokie",
+    "index": "149",
+    "power": 1760
+  },
+  {
+    "id": 223,
+    "name": "Smokie Cryst",
+    "index": "149B",
+    "power": 1610
+  },
+  {
+    "id": 224,
+    "name": "Omascul",
+    "index": "150",
+    "power": 1140
+  },
+  {
+    "id": 225,
+    "name": "Whalaska",
+    "index": "151",
+    "power": 710
+  },
+  {
+    "id": 226,
+    "name": "Whalaska Ignis",
+    "index": "151B",
+    "power": 370
+  },
+  {
+    "id": 227,
+    "name": "Verdash",
+    "index": "152",
+    "power": 1160
+  },
+  {
+    "id": 228,
+    "name": "Splatterina",
+    "index": "153",
+    "power": 780
+  },
+  {
+    "id": 229,
+    "name": "Gildane",
+    "index": "154",
+    "power": 730
+  },
+  {
+    "id": 230,
+    "name": "Dogen",
+    "index": "155",
+    "power": 1460
+  },
+  {
+    "id": 231,
+    "name": "Bulldosu",
+    "index": "156",
+    "power": 1190
+  },
+  {
+    "id": 232,
+    "name": "Celesdir",
+    "index": "157",
+    "power": 570
+  },
+  {
+    "id": 233,
+    "name": "Celesdir Noct",
+    "index": "157B",
+    "power": 270
+  },
+  {
+    "id": 234,
+    "name": "Astegon",
+    "index": "158",
+    "power": 490
+  },
+  {
+    "id": 235,
+    "name": "Knocklem",
+    "index": "159",
+    "power": 260
+  },
+  {
+    "id": 236,
+    "name": "Knocklem Ignis",
+    "index": "159B",
+    "power": 210
+  },
+  {
+    "id": 237,
+    "name": "Silvegis",
+    "index": "160",
+    "power": 560
+  },
+  {
+    "id": 238,
+    "name": "Azurmane",
+    "index": "161",
+    "power": 420
+  },
+  {
+    "id": 239,
+    "name": "Valentail",
+    "index": "162",
+    "power": 1900
+  },
+  {
+    "id": 240,
+    "name": "Snock",
+    "index": "163",
+    "power": 1780
+  },
+  {
+    "id": 241,
+    "name": "Snock Terra",
+    "index": "163B",
+    "power": 1500
+  },
+  {
+    "id": 242,
+    "name": "Souffline",
+    "index": "164",
+    "power": 2000
+  },
+  {
+    "id": 243,
+    "name": "Lapiron",
+    "index": "165",
+    "power": 1680
+  },
+  {
+    "id": 244,
+    "name": "Hoodle",
+    "index": "166",
+    "power": 1770
+  },
+  {
+    "id": 245,
+    "name": "Slowatt",
+    "index": "167",
+    "power": 1750
+  },
+  {
+    "id": 246,
+    "name": "Bakemi",
+    "index": "168",
+    "power": 1540
+  },
+  {
+    "id": 247,
+    "name": "Solmora",
+    "index": "169",
+    "power": 1370
+  },
+  {
+    "id": 248,
+    "name": "Solmora Lux",
+    "index": "169B",
+    "power": 1000
+  },
+  {
+    "id": 249,
+    "name": "Lapure",
+    "index": "170",
+    "power": 810
+  },
+  {
+    "id": 250,
+    "name": "Eidrolon",
+    "index": "171",
+    "power": 300
+  },
+  {
+    "id": 251,
+    "name": "Eidrolon Ignis",
+    "index": "171B",
+    "power": 140
+  },
+  {
+    "id": 252,
+    "name": "Dynamoff",
+    "index": "172",
+    "power": 1400
+  },
+  {
+    "id": 253,
+    "name": "Tropicaw",
+    "index": "173",
+    "power": 1350
+  },
+  {
+    "id": 254,
+    "name": "Flaracle",
+    "index": "174",
+    "power": 390
+  },
+  {
+    "id": 255,
+    "name": "Ophydia",
+    "index": "175",
+    "power": 230
+  },
+  {
+    "id": 256,
+    "name": "Dupin",
+    "index": "176",
+    "power": 520
+  },
+  {
+    "id": 257,
+    "name": "Roujay",
+    "index": "177",
+    "power": 530
+  },
+  {
+    "id": 258,
+    "name": "Venusa",
+    "index": "178",
+    "power": 970
+  },
+  {
+    "id": 259,
+    "name": "Mycora",
+    "index": "179",
+    "power": 760
+  },
+  {
+    "id": 260,
+    "name": "Loomen",
+    "index": "180",
+    "power": 890
+  },
+  {
+    "id": 261,
+    "name": "Wistella",
+    "index": "181",
+    "power": 1180
+  },
+  {
+    "id": 262,
+    "name": "Solenne",
+    "index": "182",
+    "power": 280
+  },
+  {
+    "id": 263,
+    "name": "Renjishi",
+    "index": "183",
+    "power": 290
+  },
+  {
+    "id": 264,
+    "name": "Aegidron",
+    "index": "184",
+    "power": 30
+  },
+  {
+    "id": 265,
+    "name": "Grizzbolt",
+    "index": "185",
+    "power": 1020
+  },
+  {
+    "id": 266,
+    "name": "Lyleen",
+    "index": "186",
+    "power": 240
+  },
+  {
+    "id": 267,
+    "name": "Lyleen Noct",
+    "index": "186B",
+    "power": 220
+  },
+  {
+    "id": 268,
+    "name": "Orserk",
+    "index": "187",
+    "power": 120
+  },
+  {
+    "id": 269,
+    "name": "Faleris",
+    "index": "188",
+    "power": 500
+  },
+  {
+    "id": 270,
+    "name": "Faleris Aqua",
+    "index": "188B",
+    "power": 450
+  },
+  {
+    "id": 271,
+    "name": "Shadowbeak",
+    "index": "189",
+    "power": 550
+  },
+  {
+    "id": 272,
+    "name": "Selyne",
+    "index": "190",
+    "power": 360
+  },
+  {
+    "id": 273,
+    "name": "Bastigor",
+    "index": "191",
+    "power": 50
+  },
+  {
+    "id": 274,
+    "name": "Shaolong",
+    "index": "192",
+    "power": 40
+  },
+  {
+    "id": 275,
+    "name": "Silvance",
+    "index": "193",
+    "power": 80
+  },
+  {
+    "id": 276,
+    "name": "Dandilord",
+    "index": "194",
+    "power": 60
+  },
+  {
+    "id": 277,
+    "name": "Bellanoir",
+    "index": "195",
+    "power": 620
+  },
+  {
+    "id": 278,
+    "name": "Bellanoir Libero",
+    "index": "195B",
+    "power": 130
+  },
+  {
+    "id": 279,
+    "name": "Xenolord",
+    "index": "196",
+    "power": 400
+  },
+  {
+    "id": 280,
+    "name": "Hartalis",
+    "index": "197",
+    "power": 90
+  },
+  {
+    "id": 281,
+    "name": "Paladius",
+    "index": "198",
+    "power": 180
+  },
+  {
+    "id": 282,
+    "name": "Necromus",
+    "index": "199",
+    "power": 190
+  },
+  {
+    "id": 283,
+    "name": "Frostallion",
+    "index": "200",
+    "power": 150
+  },
+  {
+    "id": 284,
+    "name": "Frostallion Noct",
+    "index": "200B",
+    "power": 110
+  },
+  {
+    "id": 285,
+    "name": "Neptilius",
+    "index": "201",
+    "power": 160
+  },
+  {
+    "id": 286,
+    "name": "Jetragon",
+    "index": "202",
+    "power": 70
+  },
+  {
+    "id": 287,
+    "name": "Panthalus",
+    "index": "203",
+    "power": 0
+  },
+  {
+    "id": 288,
+    "name": "Astralym",
+    "index": "204",
+    "power": 0
+  },
+  {
+    "id": 289,
+    "name": "Blue Slime",
+    "index": "205",
+    "power": 3100
+  },
+  {
+    "id": 290,
+    "name": "Cave Bat",
+    "index": "206",
+    "power": 3100
+  },
+  {
+    "id": 291,
+    "name": "Demon Eye",
+    "index": "207",
+    "power": 3100
+  },
+  {
+    "id": 292,
+    "name": "Enchanted Sword",
+    "index": "208",
+    "power": 3100
+  },
+  {
+    "id": 293,
+    "name": "Eye of Cthulhu",
+    "index": "209",
+    "power": 3100
+  },
+  {
+    "id": 294,
+    "name": "Green Slime",
+    "index": "210",
+    "power": 3100
+  },
+  {
+    "id": 295,
+    "name": "Illuminant Bat",
+    "index": "211",
+    "power": 3100
+  },
+  {
+    "id": 296,
+    "name": "Illuminant Slime",
+    "index": "212",
+    "power": 3100
+  },
+  {
+    "id": 297,
+    "name": "Purple Slime",
+    "index": "213",
+    "power": 3100
+  },
+  {
+    "id": 298,
+    "name": "Rainbow Slime",
+    "index": "214",
+    "power": 3100
+  },
+  {
+    "id": 299,
+    "name": "Red Slime",
+    "index": "215",
+    "power": 3100
+  }
+]
