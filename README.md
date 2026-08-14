@@ -2,6 +2,9 @@
 
 A breeding calculator for Palworld. Track your Pal box, discover what you can breed from the Pals you own (including multi-generation combinations), and calculate the odds of breeding a target Pal with specific passive skills.
 
+**Live demo**: [pal-breeding-calculator.onrender.com](https://pal-breeding-calculator.onrender.com/)
+*(hosted on Render's free tier — spins down after periods of inactivity, so the first load may take 30–60s to wake up)*
+
 ## Features
 
 - **Pal inventory** — add Pals to your box with species, gender, and up to 4 passive skills, either as a guest (stored locally in the browser) or as a registered user (stored server-side).
